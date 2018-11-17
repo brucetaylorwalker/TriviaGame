@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div id="main-header" class="row">
+
+                <h1>Trivia Game</h1>
+
+            </div>
+            <br>
+            <div id="start-header" class="row">
+                <h3>Press Start To Begin</h3>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <button id="start">START</button>
+            </div>
+        </header>
+
+        <div id="timer-display">
+            <h1>1:00</h1>
+        </div>
+
+        <div id="question">
+            <h3>The only fruit that has it's seeds on the outside is the:</h3>
+            <form>
+                <input type="radio" name="q-1" value="banana">Banana<br>
+                <input type="radio" name="q-1" value="lemon">Lemon<br>
+                <input type="radio" name="q-1" value="strawberry">Strawberry<br>
+
+                <br>
+                <h3>The Titanic...</h3>
+
+                <input type="radio" name="q-2" value="...arrived in NYC intact">Arrived<br>
+                <input type="radio" name="q-2" value="...hit an iceburg">Hit An Iceburg<br>
+                <input type="radio" name="q-2" value="...was defiled for Capitalistic greed">Was defiled for Capitalistic greed<br>
+
+                <br>
+                <h3>Who shot JR?</h3>
+
+                <input type="radio" name="q-3" value="Kristin Shepard">Kristin Shepard<br>
+                <input type="radio" name="q-3" value="Your Mom">Your Mom<br>
+                <input type="radio" name="q-3" value="Who cares">Who cares<br>
+
+                <br>
+                <h3>What is a Kumkuat</h3>
+
+                <input type="radio" name="q-4" value="A fruit">A fruit<br>
+                <input type="radio" name="q-4" value="A vegetable">A vegetable<br>
+                <input type="radio" name="q-4" value="Not sure">Not sure<br>
+
+
+            </form>
+
+            <br>
+            <div class="row">
+                <button id="finished">FINISHED</button>
+            </div>
+        </div>
+
+        <div id="results">
+            <h1>All Done</h1>
+            <p>Correct: <span id="correct"></span></p>
+            <p>Incorrect: <span id="incorrect"></span></p>
+            <p>Unanswered: <span id="unanswered"></span></p>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

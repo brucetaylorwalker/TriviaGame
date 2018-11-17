@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+#main-header {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#start-header {
+    background-color: lightgray;
+}
+
+#question {
+    text-align: center;
+    display: none;
+}
+
+#timer-display {
+    text-align: center;
+    background-color: lightgray;
+}
+
+#results {
+    text-align: center;
+    display: none;
+}
+
